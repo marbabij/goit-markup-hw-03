@@ -1,0 +1,214 @@
+:root{
+    --main-title-color: #FFFFFF;
+    --text-color: #2E2F42;
+    --third-tittle-color: #4d5ae5;
+    --body-color:#434455;
+    --focus-hover-color:#404bbf;
+    --footer-text-color:#F4F4FD;
+    --btn-color:#E7E9FC;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--main-title-color);
+    color: var(--body-color);
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.header-link:hover{
+color: var(--focus-hover-color);
+}
+.header-link:focus{
+color: var(--focus-hover-color);
+}
+
+.studio-text{
+    color: var(--text-color);    
+}
+.header-logo  {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--third-tittle-color);
+text-decoration: none;
+}
+.header-item {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+ }
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.link{
+    text-decoration:none;
+}
+.header-address {
+    font-style: normal;
+}
+.header-contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color) ;    
+}
+
+.header-contact:hover{
+    color: var(--focus-hover-color);
+}
+.header-contact:focus{
+    color: var(--focus-hover-color);
+}
+
+.first {
+    background: var(--text-color);
+}
+.first-tittle {
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+.first-button {
+    font-family: "Roboto", sans-serif;
+    background: var(--third-tittle-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--main-title-color);
+cursor: pointer;
+}
+.first-button:hover{
+    background-color:var(--focus-hover-color);
+}
+.first-button:focus{
+    background-color: var(--focus-hover-color);
+}
+.btn{
+    background: var(--footer-text-color);
+border: 1px solid var(--btn-color);
+border-radius: 4px;
+cursor: pointer;
+}
+.btn:hover{
+    background: var(--focus-hover-color);
+}
+.btn-text:hover{
+    color:var(--main-title-color);
+}
+.btn:focus{
+    background: var(--focus-hover-color);
+}
+.btn-text:focus{
+    color:var(--main-title-color);
+}
+.btn-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color:var(--third-tittle-color);
+}
+.second-category {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.second-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-color);
+}
+.third-tittle, .fourth-tittle {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--text-color);
+}
+.fourth {
+    background-color: var(--footer-text-color);
+}
+ 
+.fourth-list {
+    background-color:var(--main-title-color);
+}
+.fourth-item {
+    background-color: var(--main-title-color);
+}
+.fourth-name, .picture-tittle {
+    background-color:var(--main-title-color);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.fourth-text, .picture-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--body-color);
+
+}
+.footer{
+    background: var(--text-color);
+}
+
+.footer-logo  {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--third-tittle-color);
+text-decoration: none;
+}
+.studio-color{
+    color: var(--footer-text-color);
+    }
+
+.footer-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--footer-text-color);
+}
