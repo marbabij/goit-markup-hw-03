@@ -36,11 +36,12 @@ body {
  padding-left: 15px;
  padding-right: 15px;
  margin: 0 auto;
- outline: 2px solid red;   
+   
 }
 .header-container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E7E9FC;
 }
 .header-navigation{
     display: flex;
@@ -116,7 +117,7 @@ margin-right: 40px;
     background: var(--text-color);
     padding-top: 120px;
     padding-bottom: 120px;
-}
+    }
 .first-tittle {
     font-weight: 700;
 font-size: 56px;
@@ -124,6 +125,9 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
+max-width: 496px;
+display: flex;
+justify-content: center;
 }
 .first-button {
     font-family: "Roboto", sans-serif;
@@ -137,6 +141,7 @@ letter-spacing: 0.04em;
 color: var(--main-title-color);
 cursor: pointer;
 padding: 16px 32px 16px 32px;
+justify-content: center;
 }
 .first-button:hover{
     background-color:var(--focus-hover-color);
@@ -173,9 +178,19 @@ text-align: center;
 letter-spacing: 0.04em;
 color:var(--third-tittle-color);
 }
+.button-item{
+    padding-right: 24px;
+}
 .picture-list{
     padding-top: 72px;
     padding-bottom: 120px;
+    flex-wrap: wrap;
+}
+.picture-item{
+    width: 360px;
+    height: 420px;
+    margin: 24px;
+    border: 1px solid #E7E9FC;
 }
 .button-list{
     padding-top: 96px;
@@ -186,6 +201,10 @@ color:var(--third-tittle-color);
 }
 .second-list{
     display: flex;
+}
+.second-item{
+    max-width: 264px;
+    margin: 24px;
 }
 .second-category {
     font-weight: 500;
@@ -207,6 +226,7 @@ color: var(--body-color);
 }
 .list{
     display: flex;
+    justify-content: center;
 }
 .third-tittle, .fourth-tittle {
     font-weight: 700;
@@ -216,7 +236,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--text-color);
+padding-bottom: 72px;
 }
+
 .fourth {
     background-color: var(--footer-text-color);
     padding-top: 120px;
@@ -224,12 +246,14 @@ color: var(--text-color);
 }
  
 .fourth-list {
-    background-color:var(--main-title-color);
+    background-color:var(--footer-text-color);
     display: flex;
+    justify-content: center;
 }
 .fourth-item {
     background-color: var(--main-title-color);
-}
+    margin: 24px;
+   }
 .fourth-name, .picture-tittle {
     background-color:var(--main-title-color);
     font-weight: 500;
@@ -238,6 +262,8 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--text-color);
+padding-top: 32px;
+padding-bottom: 8px;
 }
 .fourth-text, .picture-text {
     font-weight: 400;
@@ -276,4 +302,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-text-color);
+max-width: 264px;
+min-height: 72px;
+padding-top: 16px;
 }
