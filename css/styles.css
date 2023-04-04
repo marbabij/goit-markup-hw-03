@@ -50,8 +50,7 @@ body {
     display: flex;
     align-items: center;
     margin-right: auto;
-    margin-top: 24px;
-    margin-bottom: 24px;
+
 }
 .header-link:hover{
 color: var(--focus-hover-color);
@@ -77,21 +76,23 @@ text-decoration: none;
 margin-right: 76px;
 }
 .header-list{
-    display:flex;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 .header-item {
-    font-weight: 500px;
+    font-weight: 500;
 font-size: 16px;
+font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
-margin-right: 40px;
  }
  .header-item:last-child{
     margin-right: 0;
  }
 .header-link {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -104,7 +105,7 @@ margin-right: 40px;
     font-style: normal;
 }
 .header-contact {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,12 +121,12 @@ margin-right: 40px;
 
 .first {
     background: var(--text-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .first-tittle {
-    font-weight: 700px;
+    font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -159,6 +160,10 @@ border-radius: 4px;
 .first-button:focus{
     background-color: var(--focus-hover-color);
 }
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .btn{
     background: var(--footer-text-color);
 border: 1px solid var(--btn-color);
@@ -190,34 +195,27 @@ text-align: center;
 letter-spacing: 0.04em;
 color:var(--third-tittle-color);
 }
-.button-item{
-    margin-right: 24px;
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
     margin-bottom: 72px;
 }
-.button-item:last-child{
-    margin-right: 0;
-}
+
 .picture-list{
        flex-wrap: wrap;
     display: flex;
-   margin-right: 24px;
+   gap: 48px 24px;
 }
-.picture-item{
-    display: flex;
-    width: calc((100% - 48px) / 3);
-   
-    
-}
+
 .under-picture{
     border: 1px solid #E7E9FC;
     padding-top: 32px;
     border-top: none;
+    padding-bottom: 32px; 
+    padding-left: 16px;
+    
 }
-.portfolio-conteiner{
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
-
 
 .second{
     padding-top: 120px;
@@ -234,11 +232,12 @@ color:var(--third-tittle-color);
     margin-right: 0;
 }
 .second-category {
-    font-weight: 500px;
+    font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--text-color);
+margin-bottom: 8px;
 }
 .second-text {
     font-weight: 400px;
@@ -250,12 +249,6 @@ color: var(--body-color);
 .third{
     padding-bottom: 120px;
 }
-.list{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
 
 .third-tittle, .fourth-tittle {
     font-weight: 700;
@@ -269,7 +262,10 @@ margin-bottom: 72px;
 margin-left: auto;
 margin-right: auto;
 }
-
+.picture-third{
+    display: flex;
+    gap: 24px;
+}
 .fourth {
     background-color: var(--footer-text-color);
     padding-top: 120px;
@@ -279,13 +275,16 @@ margin-right: auto;
 .fourth-list {
     background-color:var(--footer-text-color);
     display: flex;
+    gap: 24px;
     justify-content: center;
 }
 .fourth-item {
     background-color: var(--main-title-color);
     width: calc((100% - 72px) / 4);
+    padding-bottom: 32px;
    }
-.fourth-name, .picture-tittle {
+
+.fourth-name{
     background-color:var(--main-title-color);
     font-weight: 500;
 font-size: 20px;
@@ -296,15 +295,29 @@ color: var(--text-color);
 margin-top: 32px;
 margin-bottom: 8px;
 }
-.fourth-text, .picture-text {
-    font-weight: 400px;
+.fourth-text {
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--body-color);
-margin-bottom: 32px;
 
+}
+.picture-tittle {
+    background-color:var(--main-title-color);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--text-color);
+margin-bottom: 8px;
+}
+.picture-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-color);
 }
 .footer{
     background: var(--text-color);
@@ -336,10 +349,4 @@ letter-spacing: 0.02em;
 color: var(--footer-text-color);
 margin-top: 16px;
 max-width: 264px;
-}
-.footer-container{
-    
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 156px;
 }
