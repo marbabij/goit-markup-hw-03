@@ -281,9 +281,11 @@ margin-right: auto;
 .fourth-item {
     background-color: var(--main-title-color);
     width: calc((100% - 72px) / 4);
+      }
+.teem-text{
+    padding-top: 32px;
     padding-bottom: 32px;
-   }
-
+}
 .fourth-name{
     background-color:var(--main-title-color);
     font-weight: 500;
@@ -292,7 +294,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--text-color);
-margin-top: 32px;
 margin-bottom: 8px;
 }
 .fourth-text {
